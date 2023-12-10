@@ -1,0 +1,5 @@
+EXPORT SQL
+mysqldump -u root -p gb88db3 > /var/www/html/databases/gb88db3-3.04.2023.sql
+
+IMPORT SQL
+mysql -u root -p gb88db4 < /var/www/html/databases/gb88db3-3.04.2023.sql

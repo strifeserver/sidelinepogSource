@@ -1,0 +1,231 @@
+.trend-item {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 50%;
+    /* border: 3px solid #fff; */
+    background-color: transparent !important;
+}
+
+.trend-table td, .trend-table th {
+    padding: .1rem !important;
+    border: 1px solid #a8a8a8 !important;
+    height: 30px !important;
+}
+
+.winnings-table td, .winnings-table th {
+    padding: .1rem !important;
+    border: 1px solid #a8a8a8 !important;
+    height: 30px !important;
+}
+
+.bg-disabled{
+    background-color: rgb(230, 227, 227);
+}
+
+.no-fight-available{
+    width: 100%;
+    height: 450px;
+    background: #333;
+    text-align: center;
+    padding: 23%;
+}
+.bets{
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+}
+.odds{
+    display: block;
+    font-size: 25px;
+    font-weight: 400;
+}
+.betting h3{
+    margin-bottom: 0px !important;
+}
+.result{
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.winner{
+    display: none;
+}
+
+.bet-btn{
+    display: none;
+}
+
+
+.blink {
+    color: #fff;
+    animation: blink 1s linear infinite;
+}
+
+.open{
+    color: #28a745 !important;
+}
+
+.last_call{
+    color: #e0a800 !important;
+}
+
+.closed{
+    color: #dc3545 !important;
+}
+
+.not_open{
+    color: #e0a800 !important;
+}
+
+.wala-w{
+    border: 5px solid #007bff!important;
+    background-color: #007bff!important;
+    color: #ffffff;
+    line-height: 2;
+}
+
+.meron-w{
+    border: 5px solid #dc3545!important;
+    background-color: #dc3545!important;
+    color: #ffffff;
+    line-height: 2;
+}
+
+.draw-w{
+    border: 5px solid #e0a800!important;
+    background-color: #e0a800!important;
+    color: #ffffff;
+    line-height: 2;
+}
+
+.cancelled-w{
+    color: #fff;
+    border: 5px solid #6c757d!important;
+    background-color: #6c757d!important;
+    line-height: 2;
+}
+/*****/
+.wala{
+    border: 5px solid #007bff!important;
+    color: #ffffff;
+    line-height: 2;
+}
+
+.meron{
+    border: 5px solid #dc3545!important;
+    color: #ffffff;
+    line-height: 2;
+}
+
+.draw{
+    border: 5px solid #e0a800!important;
+    color: #ffffff;
+    line-height: 2;
+}
+
+.cancelled{
+    color: #fff;
+    border: 5px solid #6c757d!important;
+    line-height: 2;
+}
+/*****/
+.winnings{
+    height: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    color: turquoise;
+}
+
+.draw-winnings{
+    font-size: 18px;
+    font-weight: 400;
+    color: turquoise;
+}
+
+.swal2-html-container{
+    color: #ffffff !important;
+}
+
+
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.fade {
+    color: #fff;
+    animation: fade 1s linear infinite;
+}
+
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.bad-cont {
+    font-size: 11px;
+    color: #fff;
+    padding: .2rem .5rem;
+}
+.bad-cont {
+    font-size: 11px;
+    background: #582b2b;
+    color: #fff;
+    margin-left: 5px;
+    padding: 2px 4px;
+    position: relative;
+    border-radius: 5px;
+}
+.bad-cont .count {
+    padding: 4px;
+    position: absolute;
+    width: 25px;
+    min-width: 25px;
+    height: 25px;
+    display: inline;
+    margin: auto;
+    left: -6px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.trend-meron {
+    background: #f34141;
+    color: #ead6d6;
+}
+.bad-cont .count-label {
+    padding-left: 1.2rem;
+}
+.trend-wala {
+    background: #167df1;
+    color: #e0e0ec;
+}
+.trend-draw {
+    background: #ffc107;
+    color: #282828;
+}

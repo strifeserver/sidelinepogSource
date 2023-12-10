@@ -1,0 +1,7 @@
+1. Fix Redeclare from Cancel to Meron/wala
+2. Redeclare Commission
+3. Cash out request
+4. Cash out report ng points or commission ng operator
+
+yung multi tab sockets sa declarator side - done
+Video Space - done

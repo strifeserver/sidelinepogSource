@@ -1,0 +1,1 @@
+'bet-meron','bet-wala','bet-draw','bet-cancelled','withdraw-credits','withdraw-commission','load','refund','commission-in','plasada-in','commission-out','plasada-out','bet-blue','bet-grey','bet-red','bet-yellow','bet-white','bet-pink'
